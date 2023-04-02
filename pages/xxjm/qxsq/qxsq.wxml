@@ -1,0 +1,13 @@
+<!--pages/xxjm/qxsq/qxsq.wxml-->
+<view class="sm">
+<view class="title">声明</view>
+<view class="wz">该小程序完全为第三方开发者开发，仅用于学习交流，禁止用于其他用途</view>
+</view>
+<view class="lx">
+  <view class="title">联系开发者</view>
+<view class="wz">通过Email反馈 1305195660@qq.com</view>
+<view class="wz">通过QQ反馈 1305195660</view>
+</view>
+<view class="foot">
+开发者·C KX
+</view>

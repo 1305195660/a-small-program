@@ -1,0 +1,33 @@
+
+
+<swiper class="swiper" autoplay="{{true}}" indicator-dots="true" interval="3000" circular="{{true}}" indicator-active-color="#ffff">
+  <swiper-item wx:for="{{imgUrl}}" wx:key="index">
+    <image src="{{item}}" />
+  </swiper-item>
+</swiper>
+
+<view class="tab">
+  <view class="tab-item {{tab==0?'active':''}}" bindtap="changeItem" data-item="0">资讯</view>
+  <view class="tab-item {{tab==1?'active':''}}" bindtap="changeItem" data-item="1">公告</view>
+</view>
+<!-- 内容区域 -->
+<view class="content">
+  <swiper current="{{item}}" bindchange="changeTab">
+
+    <swiper-item>
+      <view wx:for="{{zxlist}}" wx:key="index" class="item" bindtap="goDetail" data-item="{{item}}">
+        <view class="photo">
+            <image src="{{item.photo}}"/>
+        </view>
+        <view class="wenzi">
+          <text class="title">{{item.title}}</text>
+        <text class="author">{{item.author}}</text>
+      </view>
+      </view>
+    </swiper-item>
+
+    <swiper-item>
+      <include src="gonggao.wxml" />
+    </swiper-item>
+  </swiper>
+</view>

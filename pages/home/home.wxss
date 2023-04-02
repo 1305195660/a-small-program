@@ -1,0 +1,79 @@
+.head{
+  height:80rpx;
+  width: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 375rpx;
+  background: black;
+  margin-bottom: 20rpx;
+}
+
+.swiper image {
+  width: 100%;
+  height: 375rpx;
+}
+
+.tab {
+  display: flex;
+}
+
+.tab-item {
+  flex: 1;
+  font-size: 30rpx;
+  text-align: center;
+  line-height: 72rpx;
+  border-bottom: 6rpx solid #eee;
+  font-weight: 900;
+}
+
+.tab-item.active {
+  color: rgb(245, 226, 184);
+  border-bottom-color: rgb(245, 226, 184);
+}
+
+
+.content>swiper {
+  height: 1600rpx;
+}
+
+.item {
+  display: flex;
+}
+
+.photo {
+  width: 250rpx;
+  height: 200rpx;
+  margin: 30rpx;
+  background: pink;
+  border-radius: 20px;
+}
+
+.photo>image {
+  width: 250rpx;
+  height: 200rpx;
+  border-radius: 20px;
+}
+
+.wenzi {
+  height: 200rpx;
+  width: 400rpx;
+  padding-left: 10rpx;
+  font-size: 30rpx;
+  margin: 30rpx;
+  position: relative;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 30rpx;
+}
+
+.author {
+  float: right;
+  position: absolute;
+  bottom: 8rpx;
+  right: 0;
+  color: rgb(158, 157, 157);
+}

@@ -1,0 +1,28 @@
+/* pages/xxjm/yszczy/yszczy.wxss */
+.all{
+  width: 90%;
+  margin: 0 auto;
+  color: rgb(158, 157, 157);
+  line-height: 50rpx;
+}
+.h1{
+  border-bottom: 2rpx solid black;
+  font-size: 50rpx;
+  color: black;
+  font-weight: 550;
+  margin-bottom: 10rpx;
+}
+.h2{
+  border-bottom: 2rpx solid black;
+  font-size: 45rpx;
+  color: black;
+  font-weight: 550;
+  margin-bottom: 30rpx;
+  
+}
+.h3{
+  font-size: 35rpx;
+  color: black;
+  font-weight: 550;
+
+}

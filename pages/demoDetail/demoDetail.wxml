@@ -1,0 +1,23 @@
+<view class="head">
+  <view class="title">{{detail.title}}</view>
+  <view>
+    <image src="{{detail.photo}}"  class="photo"/>
+  </view>
+  <view class="dz">
+     <image class = "image" src = "{{dianzanUrl1}}" bindtap="clickMe2"></image>
+</view>
+  <view class="sc">
+     <image class = "image" src = "{{shouchangUrl1}}" bindtap="clickMe1"></image>
+</view>
+</view>
+<view class="body">
+  <view class="nexttitle">常规模式</view>
+  <view class="shuju">{{detail.cgms}}</view>
+  <view class="nexttitle">强化符文分析</view>
+  <view class="shuju">{{detail.qhfw}}</view>
+  <view class="nexttitle">搜牌节奏</view>
+  <view class="shuju">{{detail.spjz}}</view>
+  <view class="nexttitle">克制分析</view>
+  <view class="shuju">{{detail.kzfx}}</view>
+</view>
+

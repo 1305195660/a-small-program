@@ -1,0 +1,113 @@
+/* pages/person/person.wxss */
+page {
+  font-size: 32rpx;
+  background-color: rgb(240, 243, 248);
+}
+
+.one {
+  background-image:url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg1.duote.com%2Fduoteimg%2Fdtnew_techup_img%2Fjcczzgl%2F20211116172137_37238.png&refer=http%3A%2F%2Fimg1.duote.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1665630627&t=80d3f76fa01d64436fec67eb91f61e06);
+  background-size: 100%  350rpx;
+  width: 90%;
+  margin: auto;
+  height: 350rpx;
+  justify-content: center;
+  align-items: center;
+  border-radius:20px;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.lb{
+  background-color:white;
+  color: rgb(158, 157, 157);
+  line-height: 50rpx;
+  height: 50rpx;
+  width: 90%;
+  margin: 0 auto;
+  border-radius:20px;
+}
+.guangbo{
+  height: 50rpx;
+  width: 50rpx;
+  margin-left: 20rpx;
+}
+.pushMessage{
+  height: 50rpx;
+  font-size: 30rpx;
+  width: 400rpx;
+  display: inline-block;
+  margin-left: 20rpx;
+}
+.avatar {
+  width: 90%;
+  margin: auto;
+  height: 250rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60rpx;
+}
+.welcome {
+  margin: auto;
+  height: 100rpx;
+  display: flex;
+  font-size: 42rpx;
+  color: #efefef;
+  padding-left: 50rpx;
+}
+.toux {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  border: 10rpx solid rgba(0, 0, 0, 0.1);
+}
+.content {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  padding: 30rpx 0;
+  margin-top: 20rpx;
+  border-radius:20px;
+}
+.mbox{
+  margin: 0 auto;
+}
+.jpg{
+  display: block;  
+  width: 75rpx;
+  height: 75rpx;
+  margin: 0 auto;
+}
+.xxjm {
+  width: 90%;
+  margin: 20rpx auto;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius:20px;
+  
+}
+.xxjm2 {
+  padding: 20rpx;
+  line-height: 60rpx;
+  margin-bottom: 4rpx;
+  height: 60rpx;
+}
+.item_name{
+font-size: 32rpx;
+font-family: "weiruanyahei";
+display:inline-flex;
+text-align: left;
+padding-left: 0rpx;
+font-weight: 500;
+background-color: white;
+}
+
+
+
+
+.arrow {
+  width: 30rpx;
+  height: 32rpx;
+  float: right;
+  margin-top: 16rpx;
+}

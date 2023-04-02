@@ -1,0 +1,60 @@
+<!--pages/person/person.wxml-->
+<button wx:if="{{!userInfo}}" bindtap="login">授权登录</button>
+
+<view wx:else class="root">
+  <view class="one">
+    <view class="welcome">
+
+    </view>
+    <view class="avatar">
+      <image src="{{userInfo.avatarUrl}}" mode="aspectFill" class="toux"></image>
+    </view>
+  </view>
+
+  <view class="lb">
+
+    <image class="guangbo" src="/images/person/guangbo.png" />
+    <swiper class="pushMessage" autoplay interval="3000" duration="2000" vertical="true" circular="true">
+      <block wx:for="{{messageList}}" wx:key="index">
+        <swiper-item>
+          <view class="message-box">{{item}}</view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view class="content">
+  <view class="mbox" bindtap="dz">
+    <image src="/images/person/dz.jpg" class="jpg"></image>
+    <view>我的点赞</view>
+  </view>
+  <view class="mbox" bindtap="sc">
+    <image src="/images/person/sc.jpg" class="jpg"></image>
+    <view>我的收藏</view>
+  </view>
+</view>
+
+  <view class="xxjm">
+    <view bindtap="yszczy" class="xxjm2">隐私政策摘要
+      <image class="arrow" src="/images/person/arrow.jpg"></image>
+    </view>
+
+    <view bindtap="qxsq" class="xxjm2">关于我们
+      <image class="arrow" src="/images/person/arrow.jpg"></image>
+    </view>
+
+    <view class="xxjm2">
+      <button class="item_name" open-type="contact">在线客服</button>
+      <image class="arrow" src="/images/person/arrow.jpg"></image>
+    </view>
+    <view class="xxjm2">
+      <button class="item_name" open-type="feedback">意见反馈</button>
+      <image class="arrow" src="/images/person/arrow.jpg"></image>
+    </view>
+
+  </view>
+
+  <button bindtap="loginOut">退出登录</button>
+  <!--退出登录-->
+
+</view>

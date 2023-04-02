@@ -1,0 +1,32 @@
+
+<view class="head">版本号：12.20</view>
+
+<view class="sousuo">
+  <view class="shuru"><image src="/images/zhenrong/sousuo.png"  class="sp"/><input bindblur='blurInput' bindinput="monitorInput" value="{{inputValue}}" placeholder="请输入搜索内容" placeholder-style="color:#666" /></view>
+
+</view>
+<view class="result" wx:for="{{resultArr}}" wx:key="index" bindtap="goDetail" data-item="{{item}}">
+  <view>{{item.title}}</view>
+</view>
+
+
+<view wx:for="{{list}}" wx:key="index" class="item" bindtap="goDetail" data-item="{{item}}">
+  <view class="titleone">
+    <view class="headone">{{item.pj}}
+    </view>
+    <view class="title">{{item.title}}</view>
+    <view class="arrow"><image src="/images/zhenrong/arrow.jpg"/></view>
+  </view>
+
+  <view class="photo">
+    <image src="{{item.photo}}" />
+  </view>
+  <view class="last">
+    <view class="author">{{item.author}}</view>
+    <view class="end">{{item.end}}</view>
+  </view>
+</view>
+
+<div class="foot">
+<image src="/images/zhenrong/down.jpg"/>
+</div>

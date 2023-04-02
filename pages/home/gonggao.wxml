@@ -1,0 +1,9 @@
+<view wx:for="{{gglist}}" wx:key="index" class="item" bindtap="goDetail" data-item="{{item}}">
+  <view class="photo">
+            <image src="{{item.photo}}"/>
+        </view>
+        <view class="wenzi">
+        <text class="title">{{item.title}}</text>
+        <text class="author">{{item.author}}</text>
+      </view>
+</view>

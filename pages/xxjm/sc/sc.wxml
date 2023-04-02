@@ -1,0 +1,17 @@
+<!--pages/xxjm/sc/sc.wxml-->
+<view wx:for="{{shou}}" wx:key="index" class="item" bindtap="goDetail" data-item="{{item}}">
+  <view class="titleone">
+    <view class="headone">{{item.pj}}
+    </view>
+    <view class="title">{{item.title}}</view>
+    <view class="arrow"><image src="/images/zhenrong/arrow.jpg"/></view>
+  </view>
+
+  <view class="photo">
+    <image src="{{item.photo}}" />
+  </view>
+  <view class="last">
+    <view class="author">{{item.author}}</view>
+    <view class="end">{{item.end}}</view>
+  </view>
+</view>

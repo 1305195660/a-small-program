@@ -1,0 +1,31 @@
+/* pages/xxjm/qxsq/qxsq.wxss */
+page{
+  background-color: rgb(240, 243, 248);
+}
+.sm{
+  padding-left: 20rpx;
+  background-color: white;
+}
+.lx{
+  padding-left: 20rpx;
+  background-color: white;
+  margin-top: 20rpx ;
+}
+.title{
+  font-size: 40rpx;
+  color: rgb(9, 163, 252);
+  margin-bottom: 20rpx;
+}
+.wz{
+  line-height: 60rpx;
+  font-size: 28rpx;
+}
+.foot{
+  height: 25rpx;
+  width: 100%;
+  font-size: 25rpx;
+  bottom: 20rpx;
+  position:fixed;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,14 @@
+<!--pages/zixunnext/zixunnext.wxml-->
+<view class="head">
+  <view class="title">{{detail.title}}</view>
+  <view class="author">作者：{{detail.author}}</view>
+</view>
+<view class="body">
+<view class="wz">{{detail.one}}</view>
+<view><image class="photo" src="{{detail.onephoto}}"/></view>
+<view class="wz">{{detail.two}}</view>
+<view><image class="photo" src="{{detail.twophoto}}"/></view>
+<view class="wz">{{detail.three}}</view>
+<view><image class="photo" src="{{detail.threephoto}}"/></view>
+<view class="wz">{{detail.four}}</view>
+</view>
